@@ -118,12 +118,26 @@
 
 }
 
-.service-infos span {
+.service-info p{
     font-weight: 400;
     font-size: 20px;
     color: var(--gray);
     line-height: 140%;
 
+}
+.trust-clue{
+    gap: 5px;
+}
+.service-info-icon{
+    width: 20px;
+    height: 20px;
+}
+.trust-info-icon{
+    width: 20px;
+    height: 20px;
+}
+.service-info{
+    gap: 5px;
 }
 
 .powered-by {
@@ -821,7 +835,7 @@
     max-width: 353px;
 }
 
-.trust-clues span {
+.trust-clue p {
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
@@ -1098,7 +1112,7 @@
         max-width: max-content;
     }
 
-    .trust-clues span {
+    .trust-clue p {
         font-weight: 300;
         font-size: 14px;
         line-height: 140%;
@@ -1313,7 +1327,7 @@
 
     }
 
-    .service-infos span {
+    .service-info p {
         font-size: 16px;
         line-height: 140%;
 
@@ -1353,6 +1367,11 @@
     .functional-blur {
         width: 100%;
         bottom: -80px;
+    }
+
+    .trust-info-icon{
+        width: 15px;
+        height: 15px;
     }
 
     .functional-blur img {
@@ -1472,5 +1491,8 @@
     .how-work-decor {
         top: 130px;
 
+    }
+    .services-body {
+        padding: 77px 12px 40px 12px;
     }
 }
